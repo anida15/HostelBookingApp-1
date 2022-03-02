@@ -79,7 +79,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'hostelbookingapp.wsgi.application'
 
-
+AUTH_USER_MODEL ="main.CustomUser" 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
